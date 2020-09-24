@@ -32,8 +32,7 @@ let nonUnique = () => {
   document.getElementById('res_number_list').innerHTML = ans.join();
 };
 
-// Excercise 6
-
+// Excercise 6 Romanos
 let toRoman = () => {
   let arabicNumber = document.getElementById('roman_number').value;
   let num, letter, val, index, insert;
