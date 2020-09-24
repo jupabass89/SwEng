@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./ejercicios.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+  <article>
+    <h1>1.Pangrama</h1>
+    <label>Ingrese un texto: </label>
+    <input type="text" name="input_pang" id="pangram">
+    <button onclick="isPangram()">¿Es pangrama?</button>
+    <p style="color: green" id="response"></p>
+  </article>
+  <article>
+    <h1>4.Bisiesto Gregoriano</h1>
+    <label>Ingrese un año: </label>
+    <input type="number" name="input_year" id="leap">
+    <button onclick="isLeap()">¿Es bisiesto?</button>
+    <p style="color: green" id="res_leap"></p>
+  </article>
+  <article>
+    <h1>5.Numeros Repetidos</h1>
+    <label>Ingrese una lista de numeros: </label>
+    <input type="number" name="input_number" id="number_list">
+    <button onclick="nonUnique()">Obtener repetidos</button>
+    <p>Repetidos: <span id="res_number_list"></span></p>
+  </article>
+  <article>
+    <h1>6.Numeros Romanos</h1>
+    <label>Ingrese un número arábico: </label>
+    <input type="number" name="input_roman" id="roman_number">
+    <button onclick="toRoman()">Convertir a romano</button>
+    <p>Response: <span id="res_roman_number"></span></p> 
+  </article>
+</body>
+</html>
